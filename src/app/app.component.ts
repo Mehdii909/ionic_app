@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ProduitComponent} from "./produit/produit.component";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   constructor() {}
+
+  protected readonly ProduitComponent = ProduitComponent;
 }
