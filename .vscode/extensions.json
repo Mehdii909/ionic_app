@@ -1,5 +1,10 @@
 {
-    "recommendations": [
-      "ionic.ionic"
-    ]
+  "recommendations": [
+    "ionic.ionic",
+    "nrwl.angular-console",
+    "angular.ng-template",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner"
+  ]
 }

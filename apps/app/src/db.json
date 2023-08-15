@@ -1,0 +1,65 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "nom": "Smartphone iPhone 13",
+      "prixUnitaire": 999.99,
+      "quantite": 50
+    },
+    {
+      "id": 2,
+      "nom": "Ordinateur portable MacBook Pro",
+      "prixUnitaire": 1499.99,
+      "quantite": 30
+    },
+    {
+      "id": 3,
+      "nom": "Tablette Samsung Galaxy Tab S7",
+      "prixUnitaire": 599.49,
+      "quantite": 18
+    },
+    {
+      "id": 4,
+      "nom": "Casque sans fil Sony WH-1000XM4",
+      "prixUnitaire": 349.99,
+      "quantite": 42
+    },
+    {
+      "id": 5,
+      "nom": "Smartwatch Apple Watch Series 7",
+      "prixUnitaire": 429.75,
+      "quantite": 20
+    },
+    {
+      "id": 6,
+      "nom": "Enceinte intelligente Amazon Echo Dot",
+      "prixUnitaire": 59.99,
+      "quantite": 55
+    },
+    {
+      "id": 7,
+      "nom": "Caméra de sécurité Nest Cam Indoor",
+      "prixUnitaire": 129.99,
+      "quantite": 10
+    },
+    {
+      "id": 8,
+      "nom": "Console de jeux PlayStation 5",
+      "prixUnitaire": 499.99,
+      "quantite": 7
+    },
+    {
+      "id": 9,
+      "nom": "Imprimante multifonction HP OfficeJet Pro",
+      "prixUnitaire": 249.95,
+      "quantite": 15
+    },
+    {
+      "id": 10,
+      "nom": "Routeur Wi-Fi TP-Link Archer C4000",
+      "prixUnitaire": 179.29,
+      "quantite": 28
+    }
+  ]
+}
+
