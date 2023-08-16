@@ -1,0 +1,106 @@
+# this is an auto generated file. This will be overwritten
+
+mutation CreatePorduct(
+  $input: CreatePorductInput!
+  $condition: ModelPorductConditionInput
+) {
+  createPorduct(input: $input, condition: $condition) {
+    id
+    name
+    prix
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation UpdatePorduct(
+  $input: UpdatePorductInput!
+  $condition: ModelPorductConditionInput
+) {
+  updatePorduct(input: $input, condition: $condition) {
+    id
+    name
+    prix
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation DeletePorduct(
+  $input: DeletePorductInput!
+  $condition: ModelPorductConditionInput
+) {
+  deletePorduct(input: $input, condition: $condition) {
+    id
+    name
+    prix
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation CreateProduit(
+  $input: CreateProduitInput!
+  $condition: ModelProduitConditionInput
+) {
+  createProduit(input: $input, condition: $condition) {
+    id
+    nom
+    prixUnitaire
+    quantite
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation UpdateProduit(
+  $input: UpdateProduitInput!
+  $condition: ModelProduitConditionInput
+) {
+  updateProduit(input: $input, condition: $condition) {
+    id
+    nom
+    prixUnitaire
+    quantite
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation DeleteProduit(
+  $input: DeleteProduitInput!
+  $condition: ModelProduitConditionInput
+) {
+  deleteProduit(input: $input, condition: $condition) {
+    id
+    nom
+    prixUnitaire
+    quantite
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}

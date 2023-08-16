@@ -1,0 +1,15 @@
+{
+    "name": "amplify-app",
+    "version": "1.0.0",
+    "description": "amplify app skeleton",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "ini": "^1.3.5",
+        "inquirer": "^6.5.1"
+    },
+    "scripts": {
+        "amplify-modelgen": "node amplify\\scripts\\amplify-modelgen.js",
+        "amplify-push": "node amplify\\scripts\\amplify-push.js"
+    }
+}

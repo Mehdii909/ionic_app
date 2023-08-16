@@ -1,0 +1,88 @@
+# this is an auto generated file. This will be overwritten
+
+subscription OnCreatePorduct {
+  onCreatePorduct {
+    id
+    name
+    prix
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnUpdatePorduct {
+  onUpdatePorduct {
+    id
+    name
+    prix
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnDeletePorduct {
+  onDeletePorduct {
+    id
+    name
+    prix
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnCreateProduit {
+  onCreateProduit {
+    id
+    nom
+    prixUnitaire
+    quantite
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnUpdateProduit {
+  onUpdateProduit {
+    id
+    nom
+    prixUnitaire
+    quantite
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnDeleteProduit {
+  onDeleteProduit {
+    id
+    nom
+    prixUnitaire
+    quantite
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}

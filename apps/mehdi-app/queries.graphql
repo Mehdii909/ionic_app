@@ -1,0 +1,136 @@
+# this is an auto generated file. This will be overwritten
+
+query SyncPorducts(
+  $filter: ModelPorductFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncPorducts(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      name
+      prix
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query GetPorduct($id: ID!) {
+  getPorduct(id: $id) {
+    id
+    name
+    prix
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+query ListPorducts(
+  $filter: ModelPorductFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listPorducts(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      prix
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query SyncProduits(
+  $filter: ModelProduitFilterInput
+  $limit: Int
+  $nextToken: String
+  $lastSync: AWSTimestamp
+) {
+  syncProduits(
+    filter: $filter
+    limit: $limit
+    nextToken: $nextToken
+    lastSync: $lastSync
+  ) {
+    items {
+      id
+      nom
+      prixUnitaire
+      quantite
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}
+
+query GetProduit($id: ID!) {
+  getProduit(id: $id) {
+    id
+    nom
+    prixUnitaire
+    quantite
+    _version
+    _deleted
+    _lastChangedAt
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+query ListProduits(
+  $filter: ModelProduitFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listProduits(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      nom
+      prixUnitaire
+      quantite
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+      __typename
+    }
+    nextToken
+    startedAt
+    __typename
+  }
+}

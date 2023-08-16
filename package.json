@@ -57,6 +57,7 @@
     "@nx/linter": "16.6.0",
     "@nx/web": "16.6.0",
     "@nx/workspace": "16.6.0",
+    "@nxtend/ionic-angular": "^13.1.0",
     "@schematics/angular": "^16.0.0",
     "@types/jasmine": "~4.3.0",
     "@types/jest": "^29.4.0",
