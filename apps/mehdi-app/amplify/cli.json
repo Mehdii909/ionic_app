@@ -17,9 +17,7 @@
       "enableautoindexquerynames": false,
       "respectprimarykeyattributesonconnectionfield": false,
       "shoulddeepmergedirectiveconfigdefaults": false,
-      "populateownerfieldforstaticgroupauth": false,
-      "securityEnhancementNotification": false,
-      "showFieldAuthNotification": false
+      "populateownerfieldforstaticgroupauth": false
     },
     "frontend-ios": {
       "enablexcodeintegration": false
