@@ -1,10 +1,5 @@
 import { ModelInit, MutableModel } from "@aws-amplify/datastore";
-// @ts-ignore
 import { LazyLoading, LazyLoadingDisabled } from "@aws-amplify/datastore";
-
-
-
-
 
 type EagerPorduct = {
   readonly id: string;

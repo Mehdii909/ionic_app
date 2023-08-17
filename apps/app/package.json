@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "description": "amplify app skeleton",
     "main": "index.js",
-    "dependencies": {},
+    "dependencies": {
+        "@aws-amplify/datastore": "^4.7.2"
+    },
     "devDependencies": {
         "ini": "^1.3.5",
         "inquirer": "^6.5.1"
