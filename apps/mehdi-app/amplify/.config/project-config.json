@@ -10,7 +10,7 @@
     "config": {
       "SourceDir": "src",
       "DistributionDir": "www",
-      "BuildCommand": "npm.cmd run-script build",
+      "BuildCommand": "npm.cmd run-script build -- --force",
       "StartCommand": "ionic serve"
     }
   }
